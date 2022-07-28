@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+	  
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      <!--Import materialize.css--->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<head>
+	<title>ClienteApp</title>
+	<style type="text/css">
+	
+	a.butao1{
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:7px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}	
+
+input[type=text], [type=date] {
+  border: 2px solid red;
+  border-radius: 4px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+div{
+	text-align: left;
+	vertical-align: text-top;
+}
+	
+	</style>
+	
+	
+</head>
+
+
+<body>
+
+	<h1>Cadastro de Cliente:</h1>
+	<h3><a href="/clientes/buscarClientes" class="butao1">Ver Clientes</a></h3>
+
+
+
+	<form class="container" method="post">
+	<div class="row">
+		<div>
+			Nome: <input type="text" value="" name="nome" placeholder="Nome Completo"/>
+			CPF: <input type="text" value="" name="cpf" placeholder="EX:11111111111"/>
+			Data Nascimento: <input type="date" value="" name="dataNascimento"/>
+			E-mail: <input type= "text" value="" name="email" placeholder="EX: Seuemail@email.com"/>
+			<button type="submit" class="butao1">SALVAR</button>
+		</div>
+	</div>
+		
+		
+	</form>
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+</body>
+
+
+
+</html>
