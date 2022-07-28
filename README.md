@@ -3,10 +3,10 @@
 ### Fiz esse Crud para testar meus conhecimentos no Framework Spring, O Projeto consiste em um cadastro de Clientes e de Produtos que o cliente comprou.
 Utilizei:
 
-- Spring Boot para a API; 
-- Spring Data para Integrar com o Banco de dados; 
-- Spring Thymeleaf para fazer a parte visual,;
+- Spring Boot para a API Padão Rest;
 - Spring Security para ter um controle de usuários;
+- Spring Thymeleaf para fazer a parte visual;
+- Spring Data para Integrar com o Banco de dados; 
 - MySQL para ser o Banco de Dados.
 
 ### **A API Consiste em Ter 2 Usuários**
